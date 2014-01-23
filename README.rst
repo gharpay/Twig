@@ -13,3 +13,8 @@ More Information
 Read the `documentation`_ for more information.
 
 .. _documentation: http://twig.sensiolabs.org/documentation
+
+Changes from the official builds
+--------------------------------
+
+This version of Twig contains support for caching in Memcache along with the normal Filesystem caching. This is because the creators do not see the necessity to add non-Filesytem caching, but we do.
